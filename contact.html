@@ -23,21 +23,36 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
+  <style>
+    .myNav{
+      font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    nav {
+      box-shadow: 0 5px 7px 0 rgba(0,0,0,.6);
+    }
+    @media screen and (max-width: 600px) {
+      iframe {
+        max-width: 100%;
+        /*width: 350px;*/
+        height: 1200px;
+      }
+    }
+  </style>
 
 </head>
 <body id="page-top">
 <!-- Navigation-->
-<nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top py-3" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3 myNav">
   <div class="container px-4 px-lg-5 hidden-mobile">
     <a class="navbar-brand">
       <img src="img/MyPic.png" alt="Avatar Logo" style="width:42px;" class="rounded-pill">
     </a>
-    <a class="navbar-brand" href="#page-top">Begin</a>
+    <a class="navbar-brand" href="#page-top"><strong>Begin</strong></a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ms-auto my-2 my-lg-0">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html"><span style="font-weight: bolder">Home</span></a></li>
+        <!--<li class="nav-item"><a class="nav-link" href="contact.html"><span style="font-weight: bolder">Contact Me</span></a></li>-->
       </ul>
       <div style="margin-left: auto;">
         <a class="navbar-brand" href="https://www.linkedin.com/in/karan-sharma-50a9161ab" target="_blank"><i class="bi-linkedin text-center" style="font-size: xx-large"></i></a>
@@ -60,6 +75,7 @@
       </div>
     </div>
     <iframe style="margin: 0 auto; display: block" src="https://docs.google.com/forms/d/e/1FAIpQLSdan3Zk-iJSG5qOZT6zXs7PRFcw5hM6uqDqe-iUk6OyhjoUdg/viewform?embedded=true" width="640" height="957" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
     <!--<div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-md-4 mb-5 text-center">
             <a href="tel:226-820-1729" class="text-decoration-none"><i class="bi-phone fs-2 mb-3 text-primary"></i>
